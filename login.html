@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+
+body{
+    background-image: url(https://i.pinimg.com/564x/9d/cf/6a/9dcf6a025121c8a9ced80230089f96e6.jpg);
+    margin: 1;
+    padding: 1;
+    font-family: monsterrat;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.login{
+    background-color: #2ba9f8;
+    backdrop-filter: blur(7px);
+    border-radius: 50px;
+    box-shadow: 0 60px 60px rgba(0,0,0,0.3);
+    padding: 30px;
+    width: 300px;
+    margin: 50px;
+    align-items: center;
+}
+button {
+    background: #111a1f;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px;
+    width: 100%;
+    transition: all 0.3s;
+    margin: 50px;
+}
+h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+}
+span{
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+}
+ 
+input[type="text"],
+input[type="password"]{
+     background-color:transparent;
+     border: none;
+     border-radius: 5px;
+     color: black;
+     font-size: 16px;
+     padding: 10px;
+     width: 100%;
+}
+.input-username, .input-password{
+     display: flex;
+     align-items: center;
+
+}
+.input-username, .input-password i{
+    color:black;
+    font-size: 20px;
+
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder{
+  color: black;
+
+}
+input[type="text"]:focus,
+input[type="password"]:focus{
+     outline: none;
+    
+}
+hr{
+    background-color: #fff;
+    border: none;
+    height: 2px;
+    margin: 20px 0;
+}
+.icons{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.icons i {
+    font-size: 24px;
+    color: #fff;
+    margin: 10px;
+    transition: all 0.2s ease-in-out;
+}
+.fa-facebook:hover{
+    color: #1877f2;
+}
+.fa-twitter:hover{
+    color: #1da1f2;
+}
+.fa-google:hover{
+    color: #e50a0a;
+}
+.fa-instagram:hover{
+    color: orangered;
+}
+.fa-youtube:hover{
+    color: red;
+}
+@keyframes spin{
+      to {transform: rotate(360deg);}
+}
+.sign-up{
+    margin-top: 20px;
+    text-align: center;
+}
+.sign-up a{
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.sign-up a:hover {
+    color: #fff;
+}
+.imgcontainer{
+    text-align: center;
+    margin: 25px 0 15px 0;
+    position: relative;
+    
+    
+}
+img.avatar{
+    width: 30%;
+    height: 30%;
+    border-radius: 20%;
+    background-color: #fff;
+    margin: 10px;
+
+}
+
+            </style>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/220cf49541.js" crossorigin="anonymous"></script>
+
+        </head>
+        <body>
+            <div class="container">
+                <div class="login">
+                    <h1 class="">Log In</h1>
+                    <form>
+                        <div class="imgcontainer">
+                        <img src="https://i.pinimg.com/750x/19/5c/7b/195c7b5df34e924d6949f126697bca40.jpg"/ class="avatar">
+                        </div>
+                    </form>
+                    <div class="username">
+                        <span>Username</span>
+                        <div class="input-username">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" placeholder="Type your username">  
+                            </div>
+                            <hr> 
+                       </div>
+                       <div class="password">
+                           <span>Password</span>
+                           <div class="input-password">
+                               <i class="fa-solid fa-lock"></i>
+                               <input type="password" placeholder="Type your password">
+                               </div>
+                               </div>
+                               <a href="blog.html"><button>Log in</button></a>  
+                             <div class="icons">
+                                   <i class="fa-brands fa-facebook"></i>
+                                   <i class="fa-brands fa-instagram"></i>
+                                   <i class="fa-brands fa-youtube"></i>    
+                                   <i class="fa-brands fa-twitter"></i>      
+                               
+                            </div> 
+                           
+                              <div class="sign-up">
+                                   <span>Or Sign Up Using</span>
+                                   <a href="#">Sign Up</a> 
+                                 </div>
+                                 </div>
+                              
+                            
+                 </body>
+            </html>
+
+
+                              
+           
